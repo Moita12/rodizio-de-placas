@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodizio de Placas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="rodizio.js"></script>
+</head>
+<body>
+    <div class="div1">
+        <center>
+        <h1>Rodízio Municipal de São Paulo</h1>
+        <img src="./imagens/gov-sp-vertical.png" height="200px"></p>
+        <input maxlength="1" id="A" placeholder="Digite o último digito">
+        <input maxlength="15" id="dia" placeholder="Digite o dia da semana">
+        <input maxlength="3" id="hora" placeholder="Horário (xxh)"></p>
+        <input type="radio" id="html" name="veiculo" value="carro">
+          <label for="html">Carro</label><br>
+        <input type="radio" id="html" name="veiculo" value="caminhao">
+          <label for="html">Caminhão</label><br></p>
+        <button onclick="rodizio()">Consultar Rodízio</button>
+        
+        <h1 id="resposta">.</h1>
+    </div>
+</center>
+</body>
+</html>
